@@ -76,13 +76,17 @@ en:
         "If you need me, I'll be in my room, listening to some mainstream hip-hop."
       ]
       ```
+
+
 This file holds the data to be referenced for the category. I would write a similar
 file for my implementation of The Expanse category. Perhaps I could add another
 set for ships in addition to quotes and characters.
 
 We now move on to the ruby class associated with New Girl:
 
+
 ```
+
 module Faker
   module TvShows
     class NewGirl < Base
